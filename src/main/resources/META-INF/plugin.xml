@@ -23,10 +23,11 @@
         <action
                 id="com.github.maximedezette.tddhelperforrider.actions.ShowPopupAction"
                 class="com.github.maximedezette.tddhelperforrider.actions.ShowPopupAction"
+                text="Navigate between test and test subject"
         >
             <keyboard-shortcut
                     keymap="$default"
-                    first-keystroke="alt K"
+                    first-keystroke="ctrl shift T"
             />
         </action>
     </actions>
