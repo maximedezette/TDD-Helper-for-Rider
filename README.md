@@ -8,32 +8,28 @@
 
 <!-- Plugin description -->
 The purpose of this plugin is to give you the best TDD experience in Rider IDE.
+
+## Features
+
+* Navigate easily from your test and your implementation using the shortcut
+* Create a test in the appropriate location from your test subject
+
+Using a single shortcut: `ctrl + shift + T` by default.
 <!-- Plugin description end -->
-
-## Feature
-
-Navigate easily from your test and your implementation using the shortcut:
 
 ![demo](doc/images/demo.gif)
 
-"Alt + K"
+**This shortcut can already be assigned in Rider please make sure that the only action bind 
+to it is `Navigate between test and test subject` or change the default shortcut (see below).**
 
-Create a test in the appropriate location from your test subject
+## Customize
 
+### Change the default shortcut
 
+Go to `Keymap`, search `Navigate between test and test subject` and
+then change the keymap.
 
-## Installation
-
-- Using the IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "TDD-Helper-for-Rider"</kbd> >
-  <kbd>Install</kbd>
-  
-- Manually:
-
-  Download the [latest release](https://github.com/maximedezette/TDD-Helper-for-Rider/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
-
+![reassign-shortcut](doc/images/reassign-shortcut.png)
 
 ---
 Plugin based on the [IntelliJ Platform Plugin Template][template].
