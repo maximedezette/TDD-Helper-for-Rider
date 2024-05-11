@@ -2,6 +2,7 @@
 
 # TDD-Helper-for-Rider Changelog
 
-## [Unreleased]
+## [1.0.0] - 12/05/2024
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+* Navigate easily from your test and your implementation using a shortcut
+* Create a test in the appropriate location from your test subject

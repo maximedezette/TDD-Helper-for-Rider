@@ -11,7 +11,7 @@ The purpose of this plugin is to give you the best TDD experience in Rider IDE.
 
 ## Features
 
-* Navigate easily from your test and your implementation using the shortcut
+* Navigate easily from your test and your implementation
 * Create a test in the appropriate location from your test subject
 
 Using a single shortcut: `ctrl + shift + T` by default.
