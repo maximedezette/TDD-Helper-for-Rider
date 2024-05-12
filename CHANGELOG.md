@@ -2,6 +2,8 @@
 
 # TDD-Helper-for-Rider Changelog
 
+## [Unreleased]
+
 ## [1.0.0] - 12/05/2024
 ### Added
 * Navigate easily from your test and your implementation using a shortcut
