@@ -9,6 +9,9 @@
 <!-- Plugin description -->
 The purpose of this plugin is to give you the best TDD experience in Rider IDE.
 
+This plugin is currently under development you can expect to see new features coming soon. 
+Stay tuned for updates and thank you for your patience and support!
+
 ## Features
 
 * Navigate easily from your test and your implementation
