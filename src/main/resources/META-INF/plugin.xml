@@ -31,4 +31,12 @@
             />
         </action>
     </actions>
+    <extensions defaultExtensionNs="com.intellij">
+        <intentionAction>
+            <className>com.github.maximedezette.tddhelperforrider.actions.GenerateImplementationAction</className>
+            <category>Code Generation</category>
+            <description>Generates the implementation</description>
+        </intentionAction>
+    </extensions>
+
 </idea-plugin>
