@@ -3,6 +3,9 @@ package com.github.maximedezette.tddhelperforrider.actions
 import com.intellij.ide.DataManager
 import com.intellij.openapi.actionSystem.*
 import com.jetbrains.rdclient.daemon.util.presentableName
+import java.awt.EventQueue
+import javax.swing.MenuElement
+import javax.swing.MenuSelectionManager
 
 
 internal class ShowPopupAction : AnAction() {
@@ -34,7 +37,15 @@ internal class ShowPopupAction : AnAction() {
         val x = editor.caretModel.visualPosition.column * editor.offsetToXY(1).x
         val y = (editor.caretModel.visualPosition.line + 2) * editor.lineHeight
 
-        popupMenu.component.show(component, x, y);
+        val popup = popupMenu.component
+        popup.show(component, x, y);
+
+        EventQueue.invokeLater {
+            val menuElements: Array<MenuElement> = popup.subElements
+            if (menuElements.isNotEmpty()) {
+                MenuSelectionManager.defaultManager().selectedPath = arrayOf(popup, menuElements[0])
+            }
+        }
     }
 
     private fun getActionGroup(): DefaultActionGroup {
